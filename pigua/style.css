@@ -1,0 +1,114 @@
+.pigua-lp {
+	margin: 0 auto;
+	max-width: 1080px;
+	padding: 2rem 1rem 4rem;
+	color: #202020;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	line-height: 1.8;
+}
+.pigua-lp section {
+	margin: 0 0 3rem;
+}
+.pigua-lp h1,
+.pigua-lp h2,
+.pigua-lp h3 {
+	line-height: 1.35;
+}
+.pigua-lp h1 {
+	font-size: clamp(2rem, 6vw, 4rem);
+	margin: 0 0 1rem;
+}
+.pigua-lp h2 {
+	border-left: 5px solid #9b1c1c;
+	font-size: clamp(1.45rem, 3vw, 2.1rem);
+	margin: 0 0 1rem;
+	padding-left: .8rem;
+}
+.pigua-lp h3 {
+	font-size: 1.2rem;
+	margin: 1.6rem 0 .4rem;
+}
+.pigua-hero {
+	background: #f5f1e9;
+	border-radius: 8px;
+	margin-bottom: 3rem;
+	padding: clamp(1.5rem, 5vw, 4rem);
+}
+.pigua-lead {
+	font-size: 1.15rem;
+	max-width: 760px;
+}
+.pigua-meta,
+.pigua-list,
+.pigua-cards {
+	display: grid;
+	gap: .75rem;
+}
+.pigua-meta {
+	grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+	list-style: none;
+	margin: 1.5rem 0;
+	padding: 0;
+}
+.pigua-meta li,
+.pigua-card,
+.pigua-faq article {
+	background: #fff;
+	border: 1px solid #ddd7cc;
+	border-radius: 8px;
+	padding: 1rem;
+}
+.pigua-faq {
+	display: grid;
+	gap: 1rem;
+}
+.pigua-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .75rem;
+	margin-top: 1.5rem;
+}
+.pigua-button {
+	background: #9b1c1c;
+	border-radius: 999px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	padding: .75rem 1.1rem;
+	text-decoration: none;
+}
+.pigua-button.secondary {
+	background: #2c2c2c;
+}
+.pigua-lang {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	justify-content: flex-end;
+	margin: 0 auto 1rem;
+	max-width: 1080px;
+	padding: 1rem 1rem 0;
+}
+.pigua-lang a {
+	color: #5b1a1a;
+	font-weight: 700;
+}
+.pigua-cards {
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.pigua-note {
+	background: #f7f7f7;
+	border-left: 5px solid #2c2c2c;
+	padding: 1rem;
+}
+@media (max-width: 640px) {
+	.pigua-lp {
+		padding: 1rem 1rem 3rem;
+	}
+	.pigua-actions {
+		display: grid;
+	}
+	.pigua-button {
+		text-align: center;
+	}
+}
