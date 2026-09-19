@@ -14,6 +14,7 @@ namespace OP;
 
 //	...
 OP()->Config('app',[
+	'top'         => '/pigua/',
 	'title'       => 'Piguaquan Practice Group | Chinese Martial Arts for Beginners',
 	'copyright'   => 'Copyright 2026 劈掛拳練習会 All Rights Reserved.',
 	'description' => 'Piguaquan Practice Group | Chinese Martial Arts for Beginners. Beginners are welcome to practice with us; observation is also available.',
