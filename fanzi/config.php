@@ -14,7 +14,8 @@ namespace OP;
 
 //	...
 OP()->Config('app',[
-	'title'       => 'Fanziquan Practice Group | Chinese Martial Arts for Beginners',
-	'copyright'   => 'Copyright 2026 翻子拳 All Rights Reserved.',
-	'description' => 'Fanziquan Practice Group | Chinese Martial Arts for Beginners. Beginners are welcome to practice with us; observation is also available.',
+	'top'         => '/fanzi/',
+	'title'       => '東北系翻子門｜東京・練馬・六本木の翻子拳専門稽古団体',
+	'copyright'   => 'Copyright 2026 東北系 翻子門 All Rights Reserved.',
+	'description' => '東北系翻子門は、東京の練馬・六本木で活動する翻子拳専門の伝統武術団体です。于伯謙系統の翻子拳を、基礎鍛錬から套路・用法まで稽古します。初心者・経験者歓迎。体験稽古は事前予約制です。',
 ]);
